@@ -13,11 +13,21 @@ const routes: RouteRecordRaw[] = [
     // {
     //   path: "/login",
     name: "login",
-    component: () => import("../views/login/index.vue"),
+    component: () => import("/src/views/login/index.vue"),
     meta: {
       requiresAuth: false,
       title: "登录页",
       key: "login",
+    },
+  },
+  {
+    path: "/home",
+    name: "home",
+    component: () => import("../views/index.vue"),
+    meta: {
+      requiresAuth: false,
+      title: "主页",
+      key: "home",
     },
   },
   ...routerArray,

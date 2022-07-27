@@ -18,7 +18,7 @@ import Register from "./components/Register.vue";
 .wrapper {
   height: 100vh;
   background-image: url("/src/assets/backbround.jpg");
-  padding-top: 25vh;
+  padding-top: 30vh;
 }
 .main {
   min-height: 30vh;
@@ -29,9 +29,22 @@ import Register from "./components/Register.vue";
   bottom: 15px;
   left: 0;
   z-index: 1;
-  width: rgb(0, 8, 255);
-  height: rgb(0, 8, 255);
-  background: rgb(0, 8, 255);
-  border-radius: rgb(0, 8, 255);
+  width: #f8d65a;
+  height: #f8d65a;
+  background: #f8d65a;
+  border-radius: #f8d65a;
+}
+::v-deep .van-tab {
+  // position: relative;
+  // display: flex;
+  // flex: 1;
+  // align-items: center;
+  // justify-content: center;
+  // box-sizing: border-box;
+  // padding: 0 var(--van-padding-base);
+  // color: var(--van-tab-text-color);
+  font-size: 18px;
+  //   line-height: var(--van-tab-line-height);
+  //   cursor: pointer;
 }
 </style>
