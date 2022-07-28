@@ -8,8 +8,11 @@ export {};
 declare module "@vue/runtime-core" {
   export interface GlobalComponents {
     HelloWorld: typeof import("./src/components/HelloWorld.vue")["default"];
+    PopBar: typeof import("./src/components/PopBar/index.vue")["default"];
+    Popwindow: typeof import("./src/components/PopBar/Popwindow.vue")["default"];
     RouterLink: typeof import("vue-router")["RouterLink"];
     RouterView: typeof import("vue-router")["RouterView"];
+    Tabar: typeof import("./src/components/PopBar/Tabar.vue")["default"];
     Tabbar: typeof import("./src/components/Tabbar/index.vue")["default"];
     VanActionBar: typeof import("vant/es")["ActionBar"];
     VanActionBarButton: typeof import("vant/es")["ActionBarButton"];

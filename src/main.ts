@@ -17,6 +17,7 @@ import {
   Row,
   Image as VanImage,
   Divider,
+  ImagePreview,
 } from "vant";
 import router from "./router";
 // import store from './store'
@@ -42,7 +43,8 @@ apps
   .use(Col)
   .use(Row)
   .use(VanImage)
-  .use(Divider);
+  .use(Divider)
+  .use(ImagePreview);
 apps.use(router);
 // apps.use(store);
 apps.mount("#app");
