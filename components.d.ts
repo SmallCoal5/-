@@ -18,11 +18,16 @@ declare module "@vue/runtime-core" {
     VanCell: typeof import("vant/es")["Cell"];
     VanCellGroup: typeof import("vant/es")["CellGroup"];
     VanCol: typeof import("vant/es")["Col"];
+    VanDivider: typeof import("vant/es")["Divider"];
     VanField: typeof import("vant/es")["Field"];
     VanForm: typeof import("vant/es")["Form"];
+    VanGrid: typeof import("vant/es")["Grid"];
+    VanGridItem: typeof import("vant/es")["GridItem"];
     VanIcon: typeof import("vant/es")["Icon"];
+    VanImage: typeof import("vant/es")["Image"];
     VanList: typeof import("vant/es")["List"];
     VanLoading: typeof import("vant/es")["Loading"];
+    VanNavBar: typeof import("vant/es")["NavBar"];
     VanPopup: typeof import("vant/es")["Popup"];
     VanPullRefresh: typeof import("vant/es")["PullRefresh"];
     VanRow: typeof import("vant/es")["Row"];

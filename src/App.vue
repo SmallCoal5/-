@@ -12,9 +12,9 @@ const route = useRoute();
 const noShowTabbarRouteList = [
   "/",
   "/login",
-  "/detail",
-  "/update-password",
-  "/upload-avatar",
+  // "/detail",
+  // "/update-password",
+  // "/upload-avatar",
 ];
 // watchEffect 和 watch 都是监听器
 // watchEffect 与 watch 的区别主要有以下几点：
