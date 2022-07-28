@@ -2,7 +2,7 @@
   <!-- 主体 -->
   <van-nav-bar title="主页">
     <template #left>
-      <van-icon name="smile-o" size="25" color="#f8d65a" />
+      <van-icon name="smile-o" size="25" color="#f8d65a" class="w-19px" />
     </template>
     <template #right>
       <van-icon name="search" size="25" color="#f8d65a" />
@@ -129,15 +129,15 @@ const onLoad = () => {
 ::v-deep .van-nav-bar__title {
   color: #f8d65a;
 }
-// ::v-deep .van-icon__image {
+/* // ::v-deep .van-icon__image {
 //   width: 10em;
 //   height: 10em;
 //   object-fit: contain;
-// }
+// } */
 ::v-deep .van-col {
   display: block;
   box-sizing: border-box;
-  // height: 50%;
+  /* // height: 50%; */
   width: 100%;
 }
 ::v-deep .van-grid-item__content {
