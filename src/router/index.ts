@@ -4,7 +4,7 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 
 // * 处理路由
 export const routerArray: RouteRecordRaw[] = [];
-console.log("routerArray", routerArray);
+// console.log("routerArray", routerArray);
 const routes: RouteRecordRaw[] = [
   {
     path: "/",
@@ -23,7 +23,17 @@ const routes: RouteRecordRaw[] = [
   {
     path: "/home",
     name: "home",
-    component: () => import("../views/index.vue"),
+    component: () => import("../views/home/index.vue"),
+    meta: {
+      requiresAuth: false,
+      title: "主页",
+      key: "home",
+    },
+  },
+  {
+    path: "/search",
+    name: "search",
+    component: () => import("../views/search/index.vue"),
     meta: {
       requiresAuth: false,
       title: "主页",
