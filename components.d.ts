@@ -14,6 +14,7 @@ declare module "@vue/runtime-core" {
     RouterView: typeof import("vue-router")["RouterView"];
     Tabar: typeof import("./src/components/PopBar/Tabar.vue")["default"];
     Tabbar: typeof import("./src/components/Tabbar/index.vue")["default"];
+    TopBar: typeof import("./src/components/TopBar/index.vue")["default"];
     VanActionBar: typeof import("vant/es")["ActionBar"];
     VanActionBarButton: typeof import("vant/es")["ActionBarButton"];
     VanActionBarIcon: typeof import("vant/es")["ActionBarIcon"];

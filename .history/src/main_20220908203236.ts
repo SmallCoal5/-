@@ -25,7 +25,7 @@ import router from "./router";
 import "vant/lib/index.less";
 import "lib-flexible/flexible";
 import "amfe-flexible/index.js";
-// import "tailwindcss/tailwindcss.css";
+import "tailwindcss/tailwindcss.css";
 import "uno.css";
 const apps = createApp(App);
 apps

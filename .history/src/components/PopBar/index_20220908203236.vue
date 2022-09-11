@@ -10,5 +10,7 @@
     <Tabar></Tabar>
   </div>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Tabar from "./Tabar.vue";
+</script>
 <style></style>

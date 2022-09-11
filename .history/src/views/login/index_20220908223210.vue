@@ -34,7 +34,7 @@ import Register from "./components/Register.vue";
   background: #f8d65a;
   border-radius: #f8d65a;
 }
-:deep(.van-tab) {
+::v-deep .van-tab {
   // position: relative;
   // display: flex;
   // flex: 1;

@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
-import { resolve } from "path";
 import vue from "@vitejs/plugin-vue";
+import { resolve } from "path";
 import eslintPlugin from "vite-plugin-eslint";
 import Components from "unplugin-vue-components/vite";
 import Unocss from "unocss/vite";
@@ -14,22 +14,22 @@ import {
 } from "unocss";
 // https://vitejs.dev/config/
 export default defineConfig({
-  resolve: {
-    alias: {
-      "@": resolve("./src"),
-      "vue-i18n": "vue-i18n/dist/vue-i18n.cjs.js",
-    },
-  },
-  server: {
-    host: "0.0.0.0",
-    proxy: {
-      "/api": {
-        target: "http://172.31.225.119:8000",
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ""),
-      },
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     "@": resolve("./src"),
+  //     "vue-i18n": "vue-i18n/dist/vue-i18n.cjs.js",
+  //   },
+  // },
+  // server: {
+  //   host: "0.0.0.0",
+  //   proxy: {
+  //     "/api": {
+  //       target: "http://172.31.225.62:8000",
+  //       changeOrigin: true,
+  //       rewrite: (path) => path.replace(/^\/api/, ""),
+  //     },
+  //   },
+  // },
   plugins: [
     vue(),
     eslintPlugin(),
